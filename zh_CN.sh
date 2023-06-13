@@ -1,7 +1,7 @@
 #!/bin/bash
 ## 更改Linux系统终端显示语言英文为中文。
-## wget -N --no-check-certificate http://gg.gg/zh_CN && bash zh_CN.sh
-##
+## wget -N --no-check-certificate http://gg.gg/zh_CN && bash zh_CN
+#or wget -N --no-check-certificate http://gg.gg/zh_CN.sh && bash zh_CN.sh
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 export PATH
 
@@ -77,4 +77,5 @@ echo ""
 
 # Delete self
 cd ${dir}
+rm -rf  zh_CN
 rm -rf  zh_CN.sh
